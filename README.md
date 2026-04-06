@@ -1,3 +1,7 @@
+# Archived
+This flake is now archived in favor of [upstream](https://search.nixos.org/packages?type=packages&channel=unstable&query=fladder)
+
+# Fladder
 This flake packages [Fladder](https://github.com/DonutWare/Fladder/) for NixOS.
 
 Unfortunately, using `flutter.buildFlutterApplication` fails, because Fladder uses MediaKit, which doesn't build in the Nix build env (see `test` branch).
